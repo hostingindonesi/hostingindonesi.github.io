@@ -1,0 +1,197 @@
+{
+  "cert": {
+    "cert": {
+      "OCSP": [
+        "http://o.pki.goog/s/we1/pdE"
+      ],
+      "caIssuers": [
+        "http://i.pki.goog/we1.crt"
+      ],
+      "crlDistributionPoints": [
+        "http://c.pki.goog/we1/tVFs5tB-aco.crl"
+      ],
+      "issuer": [
+        [
+          [
+            "countryName",
+            "US"
+          ]
+        ],
+        [
+          [
+            "organizationName",
+            "Google Trust Services"
+          ]
+        ],
+        [
+          [
+            "commonName",
+            "WE1"
+          ]
+        ]
+      ],
+      "notAfter": "Jan  1 14:45:52 2026 GMT",
+      "notBefore": "Oct  3 14:22:18 2025 GMT",
+      "serialNumber": "A5D196B5D57409E00EC638243593065E",
+      "subject": [
+        [
+          [
+            "commonName",
+            "rupiahid-dompet.my.id"
+          ]
+        ]
+      ],
+      "subjectAltName": [
+        [
+          "DNS",
+          "rupiahid-dompet.my.id"
+        ],
+        [
+          "DNS",
+          "*.rupiahid-dompet.my.id"
+        ]
+      ],
+      "version": 3
+    },
+    "cert_days_left": 89,
+    "cert_not_after": "2026-01-01T14:45:52",
+    "tls_negotiated_version": "TLSv1.3"
+  },
+  "domain": "rupiahid-dompet.my.id",
+  "headers_check": {
+    "http_final_url": "https://rupiahid-dompet.my.id/",
+    "http_headers": {
+      "CF-RAY": "988dea6edec244bd-SIN",
+      "Cache-Control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
+      "Connection": "close",
+      "Content-Encoding": "gzip",
+      "Content-Type": "text/html; charset=UTF-8",
+      "Date": "Fri, 03 Oct 2025 16:46:27 GMT",
+      "Expires": "Thu, 01 Jan 1970 00:00:01 GMT",
+      "NEL": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+      "Report-To": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v4?s=l%2FcVZHCBQcfJX%2FJ8n34TPsMJ9ibbQOqPlom1WY0CGA2NJbhSTCvgr6%2BR2V%2BwX1IwEIWL9%2Bq2HUH%2BMCAHTOC9AGyLu312d75rFtyj2IyPR7NHvck4FMZludpwWIQN1F%2FzvrpfdNPt5go%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+      "Server": "cloudflare",
+      "Transfer-Encoding": "chunked",
+      "Vary": "Accept-Encoding",
+      "accept-ch": "Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA",
+      "alt-svc": "h3=\":443\"; ma=86400",
+      "cf-mitigated": "challenge",
+      "critical-ch": "Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA",
+      "cross-origin-embedder-policy": "require-corp",
+      "cross-origin-opener-policy": "same-origin",
+      "cross-origin-resource-policy": "same-origin",
+      "origin-agent-cluster": "?1",
+      "permissions-policy": "accelerometer=(),autoplay=(),browsing-topics=(),camera=(),clipboard-read=(),clipboard-write=(),geolocation=(),gyroscope=(),hid=(),interest-cohort=(),magnetometer=(),microphone=(),payment=(),publickey-credentials-get=(),screen-wake-lock=(),serial=(),sync-xhr=(),usb=()",
+      "referrer-policy": "same-origin",
+      "server-timing": "chlray;desc=\"988dea6edec244bd\", cfL4;desc=\"?proto=TCP&rtt=1751&min_rtt=1738&rtt_var=679&sent=5&recv=6&lost=0&retrans=0&sent_bytes=2869&recv_bytes=771&delivery_rate=2318181&cwnd=252&unsent_bytes=0&cid=52a154437164b2a6&ts=34&x=0\"",
+      "speculation-rules": "\"/cdn-cgi/speculation\"",
+      "x-content-type-options": "nosniff",
+      "x-frame-options": "SAMEORIGIN"
+    },
+    "http_status": 403,
+    "https_final_url": "https://rupiahid-dompet.my.id/",
+    "https_headers": {
+      "CF-RAY": "988dea6f7ed88942-SIN",
+      "Cache-Control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
+      "Connection": "close",
+      "Content-Encoding": "gzip",
+      "Content-Type": "text/html; charset=UTF-8",
+      "Date": "Fri, 03 Oct 2025 16:46:27 GMT",
+      "Expires": "Thu, 01 Jan 1970 00:00:01 GMT",
+      "NEL": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+      "Report-To": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v4?s=QIUqsi%2BOcASwi53IXJRokDoobEoQBAfWtAA%2BEo%2Brh7R8wupjJryUkyr9Kgd%2F5nB94PV7ithUItNzO8POH%2FvBErdm5coXEibJmk%2FLDf%2FMPfRzMXwrHN8r75ezok6V4O5XHoU0j8gQo54%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+      "Server": "cloudflare",
+      "Transfer-Encoding": "chunked",
+      "Vary": "Accept-Encoding",
+      "accept-ch": "Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA",
+      "alt-svc": "h3=\":443\"; ma=86400",
+      "cf-mitigated": "challenge",
+      "critical-ch": "Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA",
+      "cross-origin-embedder-policy": "require-corp",
+      "cross-origin-opener-policy": "same-origin",
+      "cross-origin-resource-policy": "same-origin",
+      "origin-agent-cluster": "?1",
+      "permissions-policy": "accelerometer=(),autoplay=(),browsing-topics=(),camera=(),clipboard-read=(),clipboard-write=(),geolocation=(),gyroscope=(),hid=(),interest-cohort=(),magnetometer=(),microphone=(),payment=(),publickey-credentials-get=(),screen-wake-lock=(),serial=(),sync-xhr=(),usb=()",
+      "referrer-policy": "same-origin",
+      "server-timing": "chlray;desc=\"988dea6f7ed88942\", cfL4;desc=\"?proto=TCP&rtt=1249&min_rtt=1207&rtt_var=482&sent=5&recv=6&lost=0&retrans=0&sent_bytes=2868&recv_bytes=771&delivery_rate=3549295&cwnd=230&unsent_bytes=0&cid=d677094c1f4163e0&ts=37&x=0\"",
+      "speculation-rules": "\"/cdn-cgi/speculation\"",
+      "x-content-type-options": "nosniff",
+      "x-frame-options": "SAMEORIGIN"
+    },
+    "https_status": 403
+  },
+  "notes": [
+    "HSTS not present \u2014 consider enabling Strict-Transport-Security header."
+  ],
+  "security_headers_analysis": {
+    "csp": null,
+    "has_csp": false,
+    "has_hsts": false,
+    "has_secure_headers_minimum": false,
+    "hsts": null,
+    "permissions_policy": "accelerometer=(),autoplay=(),browsing-topics=(),camera=(),clipboard-read=(),clipboard-write=(),geolocation=(),gyroscope=(),hid=(),interest-cohort=(),magnetometer=(),microphone=(),payment=(),publickey-credentials-get=(),screen-wake-lock=(),serial=(),sync-xhr=(),usb=()",
+    "referrer_policy": "same-origin",
+    "x_content_type_options": "nosniff",
+    "x_frame_options": "SAMEORIGIN"
+  },
+  "subdomains": {
+    "admin.rupiahid-dompet.my.id": {
+      "resolved": false
+    },
+    "api.rupiahid-dompet.my.id": {
+      "resolved": false
+    },
+    "app.rupiahid-dompet.my.id": {
+      "resolved": false
+    },
+    "blog.rupiahid-dompet.my.id": {
+      "resolved": false
+    },
+    "cdn.rupiahid-dompet.my.id": {
+      "resolved": false
+    },
+    "dev.rupiahid-dompet.my.id": {
+      "resolved": false
+    },
+    "ftp.rupiahid-dompet.my.id": {
+      "resolved": false
+    },
+    "imap.rupiahid-dompet.my.id": {
+      "resolved": false
+    },
+    "m.rupiahid-dompet.my.id": {
+      "resolved": false
+    },
+    "mail.rupiahid-dompet.my.id": {
+      "resolved": false
+    },
+    "oauth.rupiahid-dompet.my.id": {
+      "resolved": false
+    },
+    "portal.rupiahid-dompet.my.id": {
+      "resolved": false
+    },
+    "secure.rupiahid-dompet.my.id": {
+      "resolved": false
+    },
+    "smtp.rupiahid-dompet.my.id": {
+      "resolved": false
+    },
+    "staging.rupiahid-dompet.my.id": {
+      "resolved": false
+    },
+    "test.rupiahid-dompet.my.id": {
+      "resolved": false
+    },
+    "www.rupiahid-dompet.my.id": {
+      "resolved": false
+    }
+  },
+  "timestamp_utc": "2025-10-03T16:46:27.439226",
+  "tls_versions": {
+    "TLSv1": false,
+    "TLSv1.1": false,
+    "TLSv1.2": false,
+    "TLSv1.3": false
+  }
+}
