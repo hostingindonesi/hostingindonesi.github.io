@@ -1,0 +1,17 @@
+server {
+    server_name rupiahid-dompet.my.id;
+    root /var/www/rupiahid-dompet;
+
+    # Non-aktifkan directory listing
+    autoindex off;
+
+    # Pastikan index file
+    index index.php index.html index.htm;
+
+    # Batasi akses ke file sensitif
+    location ~ /\.(git|env|htaccess|htpasswd|DS_Store)$ {
+        deny all;
+    }
+
+    # ... sisa konfigurasi ...
+}
